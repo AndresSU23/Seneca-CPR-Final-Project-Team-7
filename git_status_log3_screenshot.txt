@@ -1,0 +1,29 @@
+Krutin Polra@Krutin-here MINGW64 ~/source/repos/CPR 101/FINAL PROJECT/CPR FINAL PROJECT (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .vs/
+        CPR FINAL PROJECT.sln
+        CPR FINAL PROJECT.vcxproj
+        CPR FINAL PROJECT.vcxproj.filters
+        CPR FINAL PROJECT.vcxproj.user
+        converting.h
+        x64/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Krutin Polra@Krutin-here MINGW64 ~/source/repos/CPR 101/FINAL PROJECT/CPR FINAL PROJECT (master)
+$ git log
+commit 520eef0b0ecb4fdd9653c2448fdf776dcd44b8b7 (HEAD -> master)
+Author: KRUTIN <kbpolra@myseneca.ca>
+Date:   Wed Aug 9 11:07:22 2023 -0400
+
+    v2
+
+commit d3316455a8f1881d54c8cc36f3d71c38940b22bd
+Author: KRUTIN <kbpolra@myseneca.ca>
+Date:   Fri Aug 4 13:12:40 2023 -0400
+
+    v1
+
