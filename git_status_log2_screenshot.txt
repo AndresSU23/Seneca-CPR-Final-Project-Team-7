@@ -1,0 +1,27 @@
+yyoyo@YaniceSze98 MINGW64 ~/desktop/FinalProject (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .vs/
+        a.exe
+        addition.c
+        main.c
+        manipulating.h
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+yyoyo@YaniceSze98 MINGW64 ~/desktop/FinalProject (master)
+$ git log
+commit 8d505c8f391eda027143a739ca646eda15835e80 (HEAD -> master)
+Author: NGA TSZ SZE <ntsze@myseneca.ca>
+Date:   Thu Aug 3 18:35:55 2023 -0400
+
+    v2
+
+commit b7183c692c0cc49ea9810b3d1c9bad28426a921e
+Author: NGA TSZ SZE <ntsze@myseneca.ca>
+Date:   Thu Aug 3 18:21:33 2023 -0400
+
+    v1
+

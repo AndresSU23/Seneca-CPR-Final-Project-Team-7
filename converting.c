@@ -22,7 +22,7 @@ void converting(void)
 
     do 
     {
-        printf("Type an int numeric string (q - to quit):\n");
+        printf("Type an int numeric string (q - to quit):");
         // read a string from standard input and store it in the buffer
         fgets(intString, BUFFER_SIZE, stdin);
         intString[strlen(intString) - 1] = '\0';  // remove the newline character at the end of the string
@@ -35,5 +35,35 @@ void converting(void)
     } while (strcmp(intString, "q") != 0);  // continue looping until the user inputs "q"
 
     printf("*** End of Converting Strings to int Demo ***\n\n");
+
+    // Version 2
+
+    // prints a message indicating the start of the program.
+    printf("*** Start of Converting Strings to double Demo ***\n");
+
+    // The following line defines the size of the buffer.
+    char doubleString[BUFFER_SIZE];
+    double doubleNumber;//variable
+
+    //The following code will loop until the user types "q".
+    do
+    {
+        // The following line prompts the user to type a double numeric string.
+        printf("Type the double numeric string (q - to quit): ");
+
+        // The following line reads a string from the user and stores it in doubleString.
+        fgets(doubleString, BUFFER_SIZE, stdin);
+
+        // The following line replaces the last character in doubleString with '\0'.
+        doubleString[strlen(doubleString) - 1] = '\0';
+
+        // The following lines check whether the user typed "q".
+        // If not, the string is converted to a double value using the atof function and printed.
+        if (strcmp(doubleString, "q") != 0) {
+            doubleNumber = atof(doubleString);
+            printf("Converted number is %f\n", doubleNumber);
+        }
+    } while (strcmp(doubleString, "q") != 0);// The following line checks whether the user typed "g".
+    printf("*** End of Converting Strings to double Demo ***\n\n");
 
 }

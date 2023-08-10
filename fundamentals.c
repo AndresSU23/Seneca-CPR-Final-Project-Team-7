@@ -38,4 +38,28 @@ void fundamentals(void) {
 	} while (strcmp(buffer1, "q") != 0);
 	//ending message
 	printf("*** End of Indexing Strings Demo ***\n\n");
+
+	// V2
+	//starting message
+	printf("*** Start of Measuring Strings Demo ***\n");
+	//char array declaration
+	char buffer2[BUFFER_SIZE];
+	do {
+		printf("Type a string (q - to quit): \n");
+		//getting a string as an input
+		fgets(buffer2, BUFFER_SIZE, stdin);
+		buffer2[strlen(buffer2) - 1] = '\0';
+		if (strcmp(buffer2, "q") != 0)
+			//printing the length of the string
+			printf("The length of \'%s\' is %d characters\n",
+				buffer2, (int)strlen(buffer2));
+	} while (strcmp(buffer2, "q") != 0);
+	//ending message
+	printf("*** End of Measuring Strings Demo ***\n\n");
+}
+
+int main() {
+	//calling the funtion in main
+	fundamentals();
+	return 0;
 }
