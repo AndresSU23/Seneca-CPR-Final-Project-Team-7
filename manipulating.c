@@ -74,4 +74,44 @@ void manipulating(void) {
 	} while (strcmp(compare1, "q") != 0); // if the user input 'q' on compare1, the loop will break out
 	// Ending message
 	printf("*** End of Comparing Strings Demo ***\n\n");
+
+	// V3
+	printf("*** Start of Searching Strings Demo ***\n");
+
+	// Declare two character array to hold the string input from the user
+	char haystack[BUFFER_SIZE];
+	char needle[BUFFER_SIZE];
+	// Declare a pointer
+	char* occurrence = NULL;
+
+	do {
+		printf("Type the string (q to quit): \n");
+		// Read the string input from user and store it in buffer
+		fgets(haystack, BUFFER_SIZE, stdin);
+		// Remove the newline character at the end of the string
+		haystack[strlen(haystack) - 1] = '\0';
+
+		// Prompt the user to input the substring when user didn't input 'q' in the haystack
+		if (strcmp(haystack, "q") != 0) {
+			printf("Type the substring:\n");
+			// Read the string input from user and store it in the buffer
+			fgets(needle, BUFFER_SIZE, stdin);
+			// Remove the newline character at the end of the string
+			needle[strlen(needle) - 1] = '\0';
+			// Store the searching result into the pointer occurrence
+			occurrence = strstr(haystack, needle);
+			// If needle is inside the haystack
+			if (occurrence)
+				// Prints the location of needle inside the haystack (index)
+				printf("\'%s\' found at %d position\n", needle,
+					(int)(occurrence - haystack));
+			else
+				// Otherwise, display error message if needle isn't found in haystack
+				printf("Not found\n");
+		}
+
+	} while (strcmp(haystack, "q") != 0); // if the user input 'q' on haystack, the loop will break out
+
+	// Ending message
+	printf("*** End of Searching Strings Demo ***\n\n");
 }
