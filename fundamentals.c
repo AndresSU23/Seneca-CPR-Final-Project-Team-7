@@ -57,7 +57,29 @@ void fundamentals(void) {
 	//ending message
 	printf("*** End of Measuring Strings Demo ***\n\n");
 }
-
+// V3
+	//starting message
+printf("*** Start of Copying Strings Demo ***\n");
+//Declarations of strings
+char destination[BUFFER_SIZE];
+char source[BUFFER_SIZE];
+do {
+	//setting the string to an empty string
+	destination[0] = '\0';
+	printf("Destination string is reset to empty\n");
+	printf("Type the source string (q - to quit): \n");
+	//getting the string as input using fgets from source file
+	fgets(source, BUFFER_SIZE, stdin);
+	source[strlen(source) - 1] = '\0';
+	if (strcmp(source, "q") != 0) {
+		//copying the source string to destination using strcpy
+		strcpy(destination, source);
+		//printing new destination string
+		printf("New destination string is \'%s\'\n", destination);
+	}
+} while (strcmp(source, "q") != 0);
+//ending message
+printf("*** End of Copying Strings Demo ***\n\n");
 int main() {
 	//calling the funtion in main
 	fundamentals();
