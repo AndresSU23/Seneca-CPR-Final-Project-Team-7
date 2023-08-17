@@ -1,0 +1,54 @@
+commit 0d2af6371a3c5ed24786926f590222444c95f27e
+Author: AndresSU23 <111714730+AndresSU23@users.noreply.github.com>
+Date:   Wed Aug 16 20:51:14 2023 -0400
+
+    Update converting.c
+    
+    KRUTIN BHARATBHAI POLRA Update version 3 uploaded to teams
+
+commit cae6562956f6e2945028f4050fb2a2629c03e9c0
+Author: Darshannnnnnnnnn <dkprajapati2@myseneca.ca>
+Date:   Wed Aug 16 20:31:26 2023 -0400
+
+    All files
+
+commit a571ce34e4a96afb1bff296f0960d081e8806249
+Author: Darshannnnnnnnnn <dkprajapati2@myseneca.ca>
+Date:   Wed Aug 16 20:28:28 2023 -0400
+
+    all files
+
+commit 6f8f91c967b2ebcddb2a510bfd71707a1afc79f0
+Author: unknown <ssingh1336@myseneca.ca>
+Date:   Tue Aug 15 12:13:44 2023 -0400
+
+    V3
+
+commit 680e6d20abc40e8c863bb89a521573d3892e455d
+Author: NGA TSZ SZE <ntsze@myseneca.ca>
+Date:   Mon Aug 14 22:50:33 2023 -0400
+
+    v3
+
+commit f62f225b5b05c73687fc86e7861b3926cc80988e
+Author: NGA TSZ SZE <ntsze@myseneca.ca>
+Date:   Mon Aug 14 22:49:58 2023 -0400
+
+    v3
+
+commit 2ce54ab99d7885ada62d1853533013fa900140c9
+Author: DASUSeneca <111714730+AndresSU23@users.noreply.github.com>
+Date:   Mon Aug 14 17:47:30 2023 -0400
+
+    Sentences Tokenizing
+    
+    add senteces tokenizing feature to Tokenizng.c and clean old data form previous versions.
+
+commit 822f0b75eca0225647855d62ed8ce8f22a9cd363
+Merge: 60241fc 1e18028
+Author: AndresSU23 <111714730+AndresSU23@users.noreply.github.com>
+Date:   Thu Aug 10 19:15:53 2023 -0400
+
+    Merge pull request #1 from AndresSU23/V2
+    
+    V2

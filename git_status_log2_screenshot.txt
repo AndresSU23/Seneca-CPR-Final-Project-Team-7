@@ -4,8 +4,10 @@ On branch master
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
         .vs/
+        Seneca-CPR-Final-Project-Team-7/
         a.exe
         addition.c
+        git_status_log2_screenshot.txt
         main.c
         manipulating.h
 
@@ -13,7 +15,13 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 yyoyo@YaniceSze98 MINGW64 ~/desktop/FinalProject (master)
 $ git log
-commit 8d505c8f391eda027143a739ca646eda15835e80 (HEAD -> master)
+commit 847cde11ebba938de6ca27d55ba86346d113ba97 (HEAD -> master)
+Author: NGA TSZ SZE <ntsze@myseneca.ca>
+Date:   Sun Aug 13 13:18:32 2023 -0400
+
+    v3
+
+commit 8d505c8f391eda027143a739ca646eda15835e80
 Author: NGA TSZ SZE <ntsze@myseneca.ca>
 Date:   Thu Aug 3 18:35:55 2023 -0400
 
