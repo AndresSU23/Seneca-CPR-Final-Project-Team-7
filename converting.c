@@ -66,4 +66,40 @@ void converting(void)
     } while (strcmp(doubleString, "q") != 0);// The following line checks whether the user typed "g".
     printf("*** End of Converting Strings to double Demo ***\n\n");
 
+    // VERSION 3
+
+    // This version of the program demonstrates the conversion of strings to long integers.
+    // It prompts the user to enter a long numeric string and converts it to a long integer using the atol() function.
+    // The converted value is then displayed on the screen.
+
+    printf("*** Start of Converting Strings to long Demo ***\n");
+
+    // Declare a character array to hold the input string from the user.
+    char longString[BUFFER_SIZE];
+
+    // Declare a variable to store the converted long integer value.
+    long longNumber;
+
+    // Start a loop that will continue until the user inputs "q".
+    do {
+        printf("Type a long numeric string (q - to quit):\n");
+
+        // Read a string from the user and store it in the longString buffer.
+        fgets(longString, BUFFER_SIZE, stdin);
+
+        // Remove the newline character at the end of the string.
+        longString[strlen(longString) - 1] = '\0';
+
+        // Check if the user input is not "q".
+        // If not, convert the string to a long integer using the atol() function,
+        // and then print the converted value.
+        if ((strcmp(longString, "q") != 0)) {
+            longNumber = atol(longString);
+            printf("Converted number is %ld\n", longNumber);
+        }
+    } while (strcmp(longString, "q") != 0);
+
+    // Display a message indicating the end of the long integer conversion demo.
+    printf("*** End of Converting Strings to long Demo ***\n\n");
+
 }
